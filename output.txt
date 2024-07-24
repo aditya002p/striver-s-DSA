@@ -1,1 +1,2 @@
-Aditya2
+value inside function : 110
+value inside main : 110
