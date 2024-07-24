@@ -17,3 +17,32 @@
 //    }
 //    return 0;
 // }
+
+//----------------while loop---------------
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//    int i = 1;
+//    while (i <= 5)
+//    {
+//       cout << "Aditya" << i << endl;
+//       i++;
+//    }
+//    return 0;
+// }
+
+// -----------DoWhile Loop--------------------
+
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//    int i = 2;
+//    do
+//    {
+//       cout << "Aditya" << i << endl;
+//       i++;
+//    } while (i <= 1);
+//    return 0;
+// }
