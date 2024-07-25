@@ -1,2 +1,5 @@
-value inside function : 110
-value inside main : 110
+1
+22
+333
+4444
+55555
