@@ -7,7 +7,7 @@
       "command": "cmd.exe",
       "args": [
         "/c",
-        "g++ \"${file}\" -o \"${fileDirname}\\${fileBasenameNoExtension}.exe\" && \"${fileDirname}\\${fileBasenameNoExtension}.exe\" < \"${workspaceFolder}\\input.txt\" > \"${workspaceFolder}\\output.txt\" && del \"${fileDirname}\\${fileBasenameNoExtension}.exe\""
+        "copy \"${file}\" \"${workspaceFolder}\\jspwTest.cpp\" && g++ \"${workspaceFolder}\\jspwTest.cpp\" -o \"${workspaceFolder}\\jspwTest.exe\" && \"${workspaceFolder}\\jspwTest.exe\" < \"${workspaceFolder}\\input.txt\" > \"${workspaceFolder}\\output.txt\" && del \"${workspaceFolder}\\jspwTest.exe\" && del \"${workspaceFolder}\\jspwTest.cpp\""
       ],
       "presentation": {
         "reveal": "always"

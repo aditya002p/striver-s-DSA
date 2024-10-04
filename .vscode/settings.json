@@ -1,8 +1,0 @@
-{
-  "files.associations": {
-    "*.php": "php",
-    ".env*": "dotenv",
-    "ostream": "cpp",
-    "iostream": "cpp"
-  }
-}
